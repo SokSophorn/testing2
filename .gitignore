@@ -1,0 +1,2 @@
+# use .gitignore file to not download non-necessary files
+node_modules
