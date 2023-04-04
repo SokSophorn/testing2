@@ -1,8 +1,12 @@
 const express = require('express')
 const app = express();
 
-app.get('/user', (req, res) => {
+app.get('/', (req, res) => {
     res.send("hello world")
+})
+
+app.get('/user', (req, res) => {
+    res.send("welcome to user login")
 })
 
 app.listen(3000, () => {
